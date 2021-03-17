@@ -65,7 +65,7 @@ public class Tests extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (i == questions.length){
+                if (i == (questions.length - 1)){
                     checkAns(i,answers);
                     btn.setEnabled(false);
                     printScore();
